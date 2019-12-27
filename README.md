@@ -1,2 +1,0 @@
-# Pomodoro
-Created with CodeSandbox

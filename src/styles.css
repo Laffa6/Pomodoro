@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Modak&display=swap");
+
+body,
+#wrapper {
+  width: 100%;
+  height: 1000px;
+  margin: 0;
+  transition: all 2s ease-in;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+#start_stop {
+  margin-left: 60px;
+  width: 80%;
+}
+#tomato {
+  max-width: 30%;
+  height: 30%;
+}
+
+#reset {
+  margin-right: 30px;
+  width: 90%;
+}
+
+#container {
+  text-align: center;
+  margin: auto;
+  height: 667px;
+  width: 375px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+#timer-label {
+  font-family: "Modak";
+  font-weight: 300;
+  font-size: 36px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 40px 0px 40px;
+  margin-top: 50px;
+}
+
+#time-left {
+  font-size: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5%;
+  box-shadow: -8px 8px 4px 1px rgba(20, 20, 31, 0.2);
+}
+
+#play {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.bouton-session,
+.bouton-break {
+  font-family: "Lato";
+  border-radius: 60%;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+#session-decrement,
+#break-decrement {
+  padding-bottom: 3px;
+}
+
+#session-label {
+  display: flex;
+}
+
+#break-label {
+  display: flex;
+}
+
+#setTimer {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  font-family: "Modak", cursive;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 10px;
+  padding: 20px;
+  background: no-repeat
+    url("https://drive.google.com/uc?id=1s3auKUHPzky8AJY5rYvTNeOZjCBDE9Jg");
+  background-size: contain;
+  background-position: 35%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/* CSS du monde Session */
+
+.wrapper-session {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #d38324;
+  background-image: linear-gradient(-120deg, #c00505, rgba(255, 255, 255, 0));
+  transition: background-color 2s;
+}
+
+.title-session {
+  display: flex;
+  justify-content: center;
+  background: no-repeat
+    url("https://drive.google.com/uc?id=1oxfodhUsjEHmCp-38AzZ71ysd1v4GGoa");
+  background-size: 25%;
+  background-position: top 5px right;
+  padding-top: 5px;
+}
+
+.timeLeft-session {
+  background: linear-gradient(#e05a3f, #fe5656);
+}
+
+.bouton-session {
+  background-color: #fe5656;
+}
+
+.timerlabel-session {
+  color: #fe5656;
+}
+
+/* CSS du mode Break */
+
+.wrapper-break {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #8ab006;
+  background-image: linear-gradient(-120deg, #506700, rgba(255, 255, 255, 0));
+  transition: background-color 2s;
+}
+
+.title-break {
+  display: flex;
+  justify-content: center;
+  background: no-repeat
+    url("https://drive.google.com/uc?id=1-hmvdWPxxef-SbTq_8Js0kvD9O2bWzrp");
+  background-size: 25%;
+  background-position: top right;
+}
+
+.timeLeft-break {
+  background: linear-gradient(#627e01, #8ab006);
+}
+
+.bouton-break {
+  background-color: #8ab006;
+}
+
+.timerlabel-break {
+  color: #8ab006;
+}
